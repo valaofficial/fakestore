@@ -30,7 +30,7 @@
 }
 
 select{   
-    appearance: none;
+    background: none;
 }
 
 .searchInput, .searchDropdown {
