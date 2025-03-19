@@ -1,0 +1,34 @@
+.buyersDashboard{
+    display: flex;
+}
+
+.sideBarContainer{
+    width: 20%;
+}
+
+.productsContainer{
+    width: 80%;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    column-gap: 1em;
+    row-gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 769px) {
+    .sideBarContainer{
+        width: 20em;
+    }
+    .productsContainer{
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media (max-width: 426px) {
+    .productsContainer{
+        display: block;
+        width: 100%;
+    }
+}

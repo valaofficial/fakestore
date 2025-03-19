@@ -1,0 +1,43 @@
+.sidebarDiv{
+    padding: 1em;
+    position: sticky;
+    top: 0;
+}
+
+.categories{
+    background-color: #ffffff;
+    border-radius: .5em;
+    overflow: hidden;
+}
+
+.categoriesFilterTitle{
+    background-color: #14199C;
+    color: #ffffff;
+    padding: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.category{
+    height: 3em;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    font-weight: 300;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 300ms ease-in-out;
+}
+
+.category:hover{
+    background-color: #14199C;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+@media (max-width: 426px) {
+
+    .category, .categoriesFilterTitle{
+        font-size: .75em;
+    }
+}
