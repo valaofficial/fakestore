@@ -29,6 +29,10 @@
     width: 100%;
 }
 
+select{   
+    appearance: none;
+}
+
 .searchInput, .searchDropdown {
     border: none;
     outline: none;
