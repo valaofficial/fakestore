@@ -85,11 +85,6 @@
         padding-top: 2em;
     }
 
-    .navbarLinks{
-        width: 100%;
-        margin-bottom: 2em;
-    }
-
     .navbarIconsDiv{
         display: flex;
         justify-content: center;
@@ -102,20 +97,11 @@
         margin-right: .5em;
     }
 
-    .navberBtns{
-        width: 100%;
-        justify-content: center;
-        margin-top: 1em;
-    }
-
     .login{
         margin: 0;
         margin-bottom: 1em;
         padding: .5em;
     }
-}
-
-@media (max-width: 426px) {
 
     .navbarLinks{
         flex-direction: column;

@@ -17,18 +17,22 @@
     justify-content: center;
 }
 
-@media (max-width: 769px) {
+/* @media (max-width: 769px) {
     .sideBarContainer{
         width: 20em;
     }
     .productsContainer{
         grid-template-columns: 33% 33% 33%;
     }
-}
+} */
 
-@media (max-width: 426px) {
+@media (max-width: 769px) {
+    .sideBarContainer{
+        width: 50%;
+    }
+
     .productsContainer{
         display: block;
-        width: 100%;
+        width: 50%;
     }
 }
